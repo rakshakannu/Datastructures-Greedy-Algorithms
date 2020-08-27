@@ -1,0 +1,39 @@
+// greedy algorithms are used in optimization problems
+// optimisation means maximising or minimising something
+
+// general structure of greedy algorithms
+
+getOptimal(int[] arr, int n)
+
+1. initialise res=0
+2. while(all items are not considered)
+{
+  i = selectAnItem()
+  if(feasable(i))
+    res = res + i
+}
+3. return res
+
+// greedy algorithms may not work all the time
+
+EXAMPLE 1: the coin change problem will give correct answer using greedy algorithm if the currencies follow indian/US currencies and not any random value.
+EXAMPLE 2: finding the longest path from one node to other in a graph
+
+// in greedy, we pick the best looking solution at every step. and that will not give the correct solution always.
+// but greedy works in some cases, like some standard problems.
+
+// Applications of greedy algorithms
+
+1. finding optimal solutions
+
+activity selection
+fractional knapsack
+job sequencing
+prim's algorithm
+kruskal's algorithm
+dijkstra's algorithm
+huffman coding (optimal losless compression technique)
+
+2. finding close to optimal solutions for NP hard problems like travelling salesman problem
+
+
